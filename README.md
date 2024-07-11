@@ -1,1 +1,2 @@
-# wedding-tasks-app
+# Task-Application
+a simple to do list application
