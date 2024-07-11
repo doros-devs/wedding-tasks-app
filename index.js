@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const inputBox = document.querySelector("#input-box");
     const addTaskContainer = document.querySelector("#task-container");
     const clearAllButtonSection = document.querySelector("#clear-button");
+    const completedTaskContainer = document.querySelector("#completed-task")
+    
 
     // This is to open the pop-up
     openModalButton.addEventListener("click", () => {
@@ -27,29 +29,59 @@ document.addEventListener("DOMContentLoaded", () => {
             p.innerText = inputBox.value;
             p.className = "task-item flex items-center justify-between py-2"; // Add Tailwind classes for styling
             p.innerHTML = `
-                <span class="material-icons cursor-pointer">check_box_outline_blank</span>
-                <span class="task-text flex-1 m-2">${inputBox.value}</span>
+                <input type="checkbox" name="" id="" class="ml-2 accent-black cursor-pointer check-box">
+                <span class="task-text flex-1 m-2 text-lg">${inputBox.value}</span>
                 <span class="material-icons delete-icon cursor-pointer">delete</span>
             `;
             addTaskContainer.appendChild(p);
-            let clearbutton = document.createElement("button");
-            clearbutton.className = "bg-red-500 clear-all text-white px-4 py-2 rounded hover:bg-red-700";
-            clearbutton.innerHTML = "clear"
             inputBox.value = ""; // Clear the input field
             taskModal.classList.add("hidden"); // Hide the modal
         }
         saveData();
     })
 
+    // To handle the linethrough functionality
+
+    addTaskContainer.addEventListener("change", (e) => {
+         if (e.target.classList.contains("check-box")) {
+            const taskText = e.target.nextElementSibling;
+
+            if (e.target.checked) {
+                // Add line-through to task text and move to completed section
+                taskText.classList.add("line-through");
+                e.target.parentElement.remove();
+                completedTaskContainer.appendChild(e.target.parentElement)
+            
+            
+            } else {
+                // Remove line-through from task text and move
+                e.target.parentElement.remove();
+                taskText.classList.remove("line-through");
+                addTaskContainer.appendChild(e.target.parentElement)
+            }
+            saveData();
+        }
+    }) 
+
     // To handle delete tasks
 
     addTaskContainer.addEventListener("click", (e) => {
-        if (e.target.classList.contains("delete-icon")) {
+        if (e.target.classList.contains("delete-icon" )) {
         e.target.parentElement.remove();
         }
         saveData();
         
     })
+
+    // To handle deleted buttons in completed tasks section
+    completedTaskContainer.addEventListener("click", (e) => {
+        if (e.target.classList.contains("delete-icon" )) {
+        e.target.parentElement.remove();
+        }
+        saveData();
+        
+    })
+    
 
      clearAllButtonSection.addEventListener("click", () => {
         addTaskContainer.innerHTML = "";
