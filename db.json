@@ -1,0 +1,229 @@
+{ "OVERALL COORDINATOR": [
+    {
+        "id": "1",
+        "task": "Master of the Day’s Program; this involves having a schedule of the wedding day at hand, from when the couple wake up to when they depart for their honeymoon, and ensuring it is followed to the letter "
+    },
+    {
+        "id":"2",
+        "task": "Primary Timekeeper; ensure the program is followed and the event runs on time start to end. Liaise with Officiating Pastor at the Service and Emcee at the Reception to carry out task"
+    }
+],
+"SECRETARY & TREASURER": [
+    {
+        "id": "1",
+        "task": "Have the Wedding Records and Database at hand on the day of the wedding day"
+    },
+    {
+        "id":"2",
+        "task": "Pay suppliers before and on the wedding (in liaison with the Overall Coordinator)"
+    },
+    {
+        "id":"3",
+        "task": "Liaise with Overall Coordinator and Best Man on all financial matters after the wedding"
+    }
+],
+"FOOD AND BEVERAGE COORDINATOR":[
+        {
+        "id": "1",
+        "task": "Ensure the food and the drinks are ready and delivered and in the agreed times"
+    },
+    {
+        "id":"2",
+        "task": "Ensure serving points are set up at the designated positions"
+    },
+    {
+        "id":"3",
+        "task": "Ensure food provided is as agreed in quality and quantity"
+    },
+    {
+        "id": "4",
+        "task": "Liaise with Ushering Coordinator to ensure parents, close family and bridal party are served"
+    },
+    {
+        "id":"5",
+        "task": "Ensure the following teams are served at the best times possible to ensure their functions or roles are uninterrupted: Ushers, before start of reception, Security: before start of reception Transport: together with the bridal party Photographers: together with the bridal party, Videographers: together with the bridal party, Entertainment: before start of reception"
+    },
+    {
+        "id": "6",
+        "task": "Ensure the cake is ready and delivered and in the agreed times"
+    },
+    {
+        "id":"7",
+        "task": "Ensure cake gazebo is set up at the designated positions"
+    },
+    {
+        "id":"8",
+        "task": "Ensure cake provided is as agreed in quality and quantity"
+    },
+    {
+        "id": "9",
+        "task": "Ensure cake and the components around the cake (cutlery, dressing, champagne/chamdor) are set up"
+    } 
+],
+"AESTHETICS COORDINATOR": [
+    {
+        "id": "1",
+        "task": "Ensure washrooms are clean at all times. Liaise with Venue service provider to accomplish this task"
+    },
+    {
+        "id": "2",
+        "task": "Ensure all cars are decorated at the agreed place and time. Liaise with Transport Coordinator to carry out task"
+    },
+    {
+        "id":"3",
+        "task": "Ensure tables/chairs and tents are set up and dressed as agreed and two hours before the start of the wedding service"
+    },
+    {
+        "id":"4",
+        "task": "Ensure service and reception areas (entrance, walkway, gazebo, high table, parent’s tables) are decorated as agreed and two hours before the start of the wedding service"
+    },
+    {
+        "id": "5",
+        "task": "Organize markings in wedding venue to direct guests"
+    }
+],
+"EXPERIENCE COORDINATOR": [
+        {
+        "id": "1",
+        "task": "Ensure the media team are at the agreed venues above and at the agreed time"
+    },
+      {
+        "id": "2",
+        "task": "Hand over relevant badges to the media team"
+    },
+    {
+        "id": "3",
+        "task": "Ensure the M.C. and the entertainer (Deejay/Live Band) are at the venue two hours before the start of the wedding service/reception, or at the agreed time and that all the equipment is delivered and has been set up as agreed and two hours before the start of the wedding service/reception or at the agreed time)"
+    },
+    {
+        "id":"4",
+        "task": "Ensure music flows as agreed, e.g. music playing as guests stream into the service"
+    },
+    {
+        "id":"5",
+        "task": "Ensure M.C. announces monetary tokens are brought to gift table by the giver of the token (and any other gift)"
+    }
+    ],
+"TRANSPORT COORDINATOR": [ 
+    {
+        "id": "1",
+        "task": "Ensure necessary cars are at a designated place and time for cleaning and decoration. Liaise with Aesthetics Coordinator to carry out task"
+    },
+    {
+        "id":"2",
+        "task": "Ensure the Wedding Couple's luggage is in the bride's vehicle during the Morning Family Ceremony and is moved to the vehicle transferring them to their first honeymoon destination"
+    },
+    {
+        "id":"3",
+        "task": "Organize safe travel of the following people on the day from the home to the wedding venue and on the agreed time and using the designated route: Bride, Best Couple, Bride’s Parents and Groom’s Parents"
+    },
+    {
+        "id":"4",
+        "task": "Ensure safe custody, handling and transportation of gifts to agreed storage after function, including having the registration of the vehicle taking the gifts to storage. Liaise with Security and Gift Movers Coordinator and Ushers & Gifts Personnel Coordinator to carry out task"
+    },
+    {
+        "id":"5",
+        "task": "Ensure security and ushering team able to travel from ceremony to reception"
+    }
+],
+"USHERS & GIFTS PERSONNEL COORDINATOR":[
+     {
+        "id": "1",
+        "task": "Ensure ushers are at the wedding venue well before start of the wedding"
+    },
+    {
+        "id":"2",
+        "task": "Hand over relevant badges to the ushers"
+    },
+    {
+        "id":"3",
+        "task": "Direct guests to their sitting positions at service and reception"
+    },
+    {
+        "id":"4",
+        "task": "Direct guests to designated food serving points"
+    },
+    {
+        "id":"5",
+        "task": "Ensure parents, close family and bridal party are served"
+    },
+     {
+        "id": "6",
+        "task": "Direct guests to exits and amenities when needed"
+    },
+    {
+        "id":"7",
+        "task": "Hand over relevant badges to the ushering team, security team, media team, paparazzi and overall coordinator "
+    },
+    {
+        "id":"8",
+        "task": "Receive gifts from guests, marking them appropriately"
+    },
+    {
+        "id":"9",
+        "task": "Ensure monetary token box is safely with Best Man after wedding"
+    },
+    {
+        "id":"10",
+        "task": "Liaise with Security & Gift Movers Coordinator to ensure security of gifts and Transport Coordinator to ensure transport of gifts to storage after wedding"
+    }
+],
+"SECURITY & GIFT MOVERS COORDINATOR":[
+    {
+        "id": "1",
+        "task": "Ensure security team are at the wedding venue well before start of the wedding"
+    },
+    {
+        "id":"2",
+        "task": "Hand over relevant badges to the security team"
+    },
+    {
+        "id":"3",
+        "task": "Assist the security team of the venue with parking (where necessary)"
+    },
+    {
+        "id":"4",
+        "task": "Ensure gifts are well secured, including organizing two men at the gift table. Liaise with the Ushers & Gifts Personnel Coordinator to carry out task"
+    },
+    {
+        "id":"5",
+        "task": "Ensure the cake and components around the cake are well secured"
+    },
+     {
+        "id": "6",
+        "task": "Liaise with Transport Coordinator to ensure secure transportation of gifts to storage"
+    },
+    {
+        "id":"7",
+        "task": "Control paparazzi at the venue as agreed by committee"
+    },
+    {
+        "id":"8",
+        "task": "Control photographers / videographers among the guests from inconveniencing: The official photographers, The official videographers, The other guests from witnessing proceedings (exchange of vows, the kiss, cake cutting etc.)"
+    }
+],
+"GROOMSMEN'S COORDINATOR":[
+    {
+        "id": "1",
+        "task": "Ensure the team strictly observes these specific time slots: Wake up and preparation time, Departure time to church"
+    },
+    {
+        "id":"2",
+        "task": "Ensure the team are cooperative and coordinated when: leaving the ceremony for the photo shoot, during the photo shoot, leaving the photo shoot for the wedding reception"
+    }
+],
+"BRIDESMAIDS' COORDINATOR":[
+    {
+        "id": "1",
+        "task": "Ensure the team strictly observes these specigic time slots: Wake up and preparation time (especially hair styling sessions and makeup sessions), Departure time to church"
+    },
+    {
+        "id":"2",
+        "task": "Ensure the hair stylist and makeup artiste have arrived on yime morning of the wedding"
+    },
+    {
+        "id":"3",
+        "task": "Ensure the team are cooperative and coordinated when: leaving the ceremony for the photo shoot, during the photo shoot, leaving the photo shoot for the wedding reception"
+    }
+]
+}
